@@ -49,16 +49,16 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
           leftCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg", imageAlt: "Islamic Tools Hub" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg", imageAlt: "Learning Library" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg?_wi=1", imageAlt: "Islamic Tools Hub" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg?_wi=1", imageAlt: "Learning Library" },
             { imageSrc: "http://img.b2bpic.net/free-vector/blubot-landing-page-template_52683-2416.jpg", imageAlt: "AI Assistant" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/yoga-practice-woman-doing-asana-sunrise_1385-2735.jpg", imageAlt: "Mental Wellness" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/yoga-practice-woman-doing-asana-sunrise_1385-2735.jpg?_wi=1", imageAlt: "Mental Wellness" },
           ]}
           rightCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-vector/goals-habits-tracking-app-screens-collection_23-2148616460.jpg", imageAlt: "Dashboard Interface" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/cyber-safety-concept-with-chain-padlock-keyboard-wooden-cubes-white-background-flat-lay_176474-7658.jpg", imageAlt: "Security & Privacy" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-child-adult-playing-with-educational-wooden-cubes-floor_181624-28706.jpg", imageAlt: "Kids Safe Mode" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg", imageAlt: "Learning Features" },
+            { imageSrc: "http://img.b2bpic.net/free-vector/goals-habits-tracking-app-screens-collection_23-2148616460.jpg?_wi=1", imageAlt: "Dashboard Interface" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/cyber-safety-concept-with-chain-padlock-keyboard-wooden-cubes-white-background-flat-lay_176474-7658.jpg?_wi=1", imageAlt: "Security & Privacy" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-child-adult-playing-with-educational-wooden-cubes-floor_181624-28706.jpg?_wi=1", imageAlt: "Kids Safe Mode" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg?_wi=2", imageAlt: "Learning Features" },
           ]}
           carouselPosition="right"
           buttons={[
@@ -100,11 +100,11 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "tasbeeh",              name: "Smart Tasbeeh Counter",              price: "Free",              variant: "Advanced digital rosary with 3D beads",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg",              imageAlt: "Tasbeeh Counter"},
+              id: "tasbeeh",              name: "Smart Tasbeeh Counter",              price: "Free",              variant: "Advanced digital rosary with 3D beads",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg?_wi=2",              imageAlt: "Tasbeeh Counter"},
             {
-              id: "prayer-times",              name: "Prayer Time Tracker",              price: "Free",              variant: "Real-time notifications and reminders",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg",              imageAlt: "Prayer Times"},
+              id: "prayer-times",              name: "Prayer Time Tracker",              price: "Free",              variant: "Real-time notifications and reminders",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg?_wi=3",              imageAlt: "Prayer Times"},
             {
-              id: "qibla",              name: "Qibla Direction Finder",              price: "Free",              variant: "Compass-based direction detection",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg",              imageAlt: "Qibla Compass"},
+              id: "qibla",              name: "Qibla Direction Finder",              price: "Free",              variant: "Compass-based direction detection",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg?_wi=4",              imageAlt: "Qibla Compass"},
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
@@ -121,7 +121,7 @@ export default function LandingPage() {
           tag="Learning"
           tagIcon={BookOpen}
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg?_wi=3"
           imageAlt="Knowledge Library"
           useInvertedBackground={false}
           buttons={[{ text: "Browse Library", href: "#" }]}
@@ -154,7 +154,7 @@ export default function LandingPage() {
           tag="Your Companion"
           tagIcon={Heart}
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/yoga-practice-woman-doing-asana-sunrise_1385-2735.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/yoga-practice-woman-doing-asana-sunrise_1385-2735.jpg?_wi=2"
           imageAlt="Mental Wellness"
           useInvertedBackground={false}
           buttons={[{ text: "Start Wellness Journey", href: "#" }]}
@@ -188,17 +188,17 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           testimonials={[
             {
-              id: "1",              name: "Fatima Al-Rashid, Student",              date: "Date: 15 January 2025",              title: "Transformed My Learning",              quote: "This app has completely changed how I approach Islamic education. The AI assistant answers all my questions instantly, and the offline mode helps me study anywhere. Highly recommend!",              tag: "Education",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Fatima",              imageSrc: "http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg",              imageAlt: "Learning Experience"},
+              id: "1",              name: "Fatima Al-Rashid, Student",              date: "Date: 15 January 2025",              title: "Transformed My Learning",              quote: "This app has completely changed how I approach Islamic education. The AI assistant answers all my questions instantly, and the offline mode helps me study anywhere. Highly recommend!",              tag: "Education",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Fatima",              imageSrc: "http://img.b2bpic.net/free-photo/ancient-books-library-table_23-2147711433.jpg?_wi=4",              imageAlt: "Learning Experience"},
             {
-              id: "2",              name: "Ahmed Hassan, Teacher",              date: "Date: 18 January 2025",              title: "Best Tool for Islamic Instruction",              quote: "As an Islamic teacher, I find this app invaluable. The comprehensive Quranic tools, Tasbeeh counter, and prayer time features make my teaching more effective. The encryption also gives me peace of mind.",              tag: "Teaching",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Ahmed",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg",              imageAlt: "Islamic Tools"},
+              id: "2",              name: "Ahmed Hassan, Teacher",              date: "Date: 18 January 2025",              title: "Best Tool for Islamic Instruction",              quote: "As an Islamic teacher, I find this app invaluable. The comprehensive Quranic tools, Tasbeeh counter, and prayer time features make my teaching more effective. The encryption also gives me peace of mind.",              tag: "Teaching",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Ahmed",              imageSrc: "http://img.b2bpic.net/free-photo/man-temple_119272-7.jpg?_wi=5",              imageAlt: "Islamic Tools"},
             {
-              id: "3",              name: "Aisha Mohammed, Parent",              date: "Date: 20 January 2025",              title: "Safe for My Children",              quote: "The kids safe mode is fantastic! My children can learn Islamic stories and play educational games while I know they're in a protected environment. The parental controls are intuitive and comprehensive.",              tag: "Family",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Aisha",              imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-child-adult-playing-with-educational-wooden-cubes-floor_181624-28706.jpg",              imageAlt: "Kids Learning"},
+              id: "3",              name: "Aisha Mohammed, Parent",              date: "Date: 20 January 2025",              title: "Safe for My Children",              quote: "The kids safe mode is fantastic! My children can learn Islamic stories and play educational games while I know they're in a protected environment. The parental controls are intuitive and comprehensive.",              tag: "Family",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Aisha",              imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-child-adult-playing-with-educational-wooden-cubes-floor_181624-28706.jpg?_wi=2",              imageAlt: "Kids Learning"},
             {
-              id: "4",              name: "Muhammad Karim, Mental Health Professional",              date: "Date: 22 January 2025",              title: "Perfect for Wellness",              quote: "The mental wellness features combined with Islamic guidance is brilliant. My clients love the journaling system and guided breathing exercises. This bridges the gap between spirituality and psychology perfectly.",              tag: "Wellness",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Muhammad",              imageSrc: "http://img.b2bpic.net/free-photo/yoga-practice-woman-doing-asana-sunrise_1385-2735.jpg",              imageAlt: "Wellness Session"},
+              id: "4",              name: "Muhammad Karim, Mental Health Professional",              date: "Date: 22 January 2025",              title: "Perfect for Wellness",              quote: "The mental wellness features combined with Islamic guidance is brilliant. My clients love the journaling system and guided breathing exercises. This bridges the gap between spirituality and psychology perfectly.",              tag: "Wellness",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Muhammad",              imageSrc: "http://img.b2bpic.net/free-photo/yoga-practice-woman-doing-asana-sunrise_1385-2735.jpg?_wi=3",              imageAlt: "Wellness Session"},
             {
-              id: "5",              name: "Noor Al-Sayed, Software Developer",              date: "Date: 24 January 2025",              title: "Impressive Technical Implementation",              quote: "As a tech professional, I'm impressed with the app's architecture. The offline functionality, encryption, and cross-device sync work flawlessly. It's clear this was built with user privacy in mind.",              tag: "Technology",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Noor",              imageSrc: "http://img.b2bpic.net/free-photo/cyber-safety-concept-with-chain-padlock-keyboard-wooden-cubes-white-background-flat-lay_176474-7658.jpg",              imageAlt: "Security Features"},
+              id: "5",              name: "Noor Al-Sayed, Software Developer",              date: "Date: 24 January 2025",              title: "Impressive Technical Implementation",              quote: "As a tech professional, I'm impressed with the app's architecture. The offline functionality, encryption, and cross-device sync work flawlessly. It's clear this was built with user privacy in mind.",              tag: "Technology",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Noor",              imageSrc: "http://img.b2bpic.net/free-photo/cyber-safety-concept-with-chain-padlock-keyboard-wooden-cubes-white-background-flat-lay_176474-7658.jpg?_wi=2",              imageAlt: "Security Features"},
             {
-              id: "6",              name: "Leila Hassan, Content Creator",              date: "Date: 26 January 2025",              title: "Game-Changing Productivity",              quote: "With the daily challenges, achievement tracking, and goal-setting features, this app has boosted my productivity significantly. The gamified reward system keeps me motivated while maintaining my Islamic practice.",              tag: "Productivity",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Leila",              imageSrc: "http://img.b2bpic.net/free-vector/goals-habits-tracking-app-screens-collection_23-2148616460.jpg",              imageAlt: "Dashboard Features"},
+              id: "6",              name: "Leila Hassan, Content Creator",              date: "Date: 26 January 2025",              title: "Game-Changing Productivity",              quote: "With the daily challenges, achievement tracking, and goal-setting features, this app has boosted my productivity significantly. The gamified reward system keeps me motivated while maintaining my Islamic practice.",              tag: "Productivity",              avatarSrc: "http://img.b2bpic.net/free-photo/outdoor-shot-young-caucasian-man-with-beard-relaxing-open-air-surrounded-by-beautiful-mountain-setting-rainforest_273609-1855.jpg",              avatarAlt: "Leila",              imageSrc: "http://img.b2bpic.net/free-vector/goals-habits-tracking-app-screens-collection_23-2148616460.jpg?_wi=2",              imageAlt: "Dashboard Features"},
           ]}
           textboxLayout="default"
           useInvertedBackground={true}
